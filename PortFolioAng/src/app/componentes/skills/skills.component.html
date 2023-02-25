@@ -1,0 +1,26 @@
+   <!-- SECCION SKILLS -->
+   <section id="skills" class="skills" >
+    <div class="contenido-skills">
+        <h2>HABILIDADES</h2>
+        <div class="fila">
+                <div class="filai">
+                    <h2>Lenguajes</h2>
+                    <div class="lenguajes" *ngFor="let lenguajes of lenguajesList">
+                        <h3 >{{lenguajes.lenguaje}}</h3>
+                            <span class={{lenguajes.bar}}><span class={{lenguajes.porLenguaje}}></span></span>
+                    </div>
+                </div>
+
+                <div class="filad">
+                    <h2>Habilidades Profesionales</h2>
+                    <div class="lenguajes" *ngFor="let habilidades of habilidadesList">
+                        <h3>{{habilidades.habilidad}}</h3>
+                            <span class={{habilidades.bar1}}><span class={{habilidades.porHabilidad}}></span></span>
+                        
+                    </div>
+                </div>
+        </div>
+    </div> 
+       
+       
+</section >
